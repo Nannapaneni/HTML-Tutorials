@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+  }
+  
+  #box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    height: 50px;
+    width: 470px;
+    background: #FFF;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
+  #box1 {
+    margin-top: 10px;
+    margin-left: 200px;
+    border: 2px solid green;
+    height: 30px;
+    width: 170px;
+    background: #FFF;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+  }
+  
+  #footer1 {
+    text-align: center;
+  }
+  
