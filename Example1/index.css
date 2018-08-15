@@ -2,7 +2,7 @@ body {
     background-color: yellow;
   }
 
-  #box {
+  .question {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 2px solid green;
@@ -13,11 +13,10 @@ body {
     color: #000;
     text-align: center;
   }
-  .box {
+  .option{
     margin-top: 10px;
     margin-left: 200px;
     border: 2px solid green;
-    height: 30px;
     width: 170px;
     background: #FFF;
     font-size: 18px;
