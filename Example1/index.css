@@ -1,29 +1,30 @@
-body {
-    background-color: yellow;
-  }
+
   .directions{
     text-align: center;
     
   }
   .question {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid green;
-    height: 50px;
-    width: 470px;
+    border: 2px solid rgb(2, 146, 209);
     background: #FFF;
     font-size: 18px;
     color: #000;
     text-align: center;
+    border-radius: 5px;
+    height:150px;
+    padding-top:50px;
   }
   .option{
     margin-top: 10px;
-    border: 2px solid green;
-    width: 170px;
+    border: 2px solid rgb(2, 146, 209);
     background: #FFF;
     font-size: 18px;
     color: #000;
     text-align: center;
+    border-radius:5px;
+  }
+
+  .main-container{
+    background-color: yellow;
   }
 
   #footer1 {
