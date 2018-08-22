@@ -1,0 +1,23 @@
+.card-list{
+    height:500px;
+    width:500px;
+}
+.card-box,
+.card-box-set {
+    border-radius: 6px;
+}
+.card-box-set,
+.card-box-set-2,
+.card-box-set-3
+{
+    height: 100px;
+}
+
+.card-box{
+    background-color: #00ff00;
+    float: left;
+    margin:  1.5%;
+    padding: 20px 0;
+    text-align: center;
+    width:5%;
+}
