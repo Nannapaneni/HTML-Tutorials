@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  grid-template: 8% 80% 10% / 15% 85%;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  background-color: blue;
+  height: 100px;
+  width: auto;
+}
+
+main {
+  background-color: gold;
+}
+
+footer {
+  background-color: rgb(25, 175, 88);
+  height: 100px;
+  width: auto;
+}
+
+.top-menu-container {
+  float: right;
+}
+
+.top-menu-item {
+  float: left;
+  display: table-cell;
+  margin: 10px;
+}
