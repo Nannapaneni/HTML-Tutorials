@@ -1,11 +1,10 @@
 body {
   height: 100vh;
-  grid-template: 8% 80% 10% / 15% 85%;
 }
 
 header {
   background-color: black;
-  height: 50px;
+  height: 10%;
   width: auto;
 }
 
@@ -25,7 +24,6 @@ footer {
 
 .top-menu-item {
   float: left;
-  display: table-cell;
   margin: 10px;
 }
 .menu-item{
@@ -33,7 +31,28 @@ footer {
   margin-top: 26px;
 }
 .sidebar{
-  height: 100%;
+  float:left;
+  height: 90%;
   width:10%;
   background-color: blue;
+}
+
+.side-menu .side-menu-item{
+ margin: 20px 10px;
+}
+
+.side-menu{
+  display: inline;
+}
+
+.main-content{
+  float:left;
+  height: 90%;
+  width:90%;
+}
+
+#assignment_no{
+  float:right;
+  border: 1px solid black;
+  background-color: yellow;
 }
