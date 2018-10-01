@@ -1,39 +1,72 @@
-body {
-    height: 100vh;
-    grid-template: 8% 80% 10% / 15% 85%;
-  }
+
   
   header {
     background-color: black;
-    height: 50px;
-    width: auto;
-  }
+        width: auto;
+        clear : both;    
+  } 
   
-  main {
-    background-color: gold;
-  }
   
-  footer {
-    background-color: rgb(25, 175, 88);
-    height: 100px;
-    width: auto;
-  }
-  
-  .top-menu-container {
-    float: right;
-  }
-  
-  .top-menu-item {
-    float: left;
-    display: table-cell;
-    margin: 10px;
-  }
   .menu-item{
     float:left;
     margin-top: 26px;
   }
-  .sidebar{
-    height: 100%;
-    width:10%;
-    background-color: blue;
+  
+
+  .left-main {
+    width: 70%;
+    background-color: #ABCDEF;
+                
+  }
+
+  .right-main {
+    width: 30%;
+    background-color: brown;
+    float: left;    
+  }
+  .top-logo {
+    background-color: yellowgreen;
+    width: 100px;
+    float: left;
+  }
+  .main-div {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-elem {
+    float: right;
+    position: relative;
+  }
+
+  .nav-elem {
+    background-color: pink;
+    width: auto;
+    float: left;
+  }
+  .search-box {
+    background-color: purple;
+    width: auto;
+    float: left;
+  }
+  .main-div {
+    height: 500px;
+  }
+  .details {
+    font-family: arial;
+    font-weight: 500;
+    color: #8d8d8d;
+    font-size: 18px;
+  }
+  .sub-heading {
+    font-size: 18px;
+    font-weight: 300;
+    color: #6d6d6d;
+  }
+
+  .heading {
+    color: rgb(40, 44, 52);
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700px;
   }
