@@ -24,11 +24,10 @@
 
   .right-main {
     width: 30%;
-    background-color: brown;
+    background-color: #ccc;
     float: left;    
   }
   .top-logo {
-    background-color: yellowgreen;
     width: 100px;
     float: left;
   }
@@ -44,12 +43,11 @@
   }
 
   .nav-elem {
-    background-color: pink;
     width: auto;
     float: left;
+    color:white;
   }
   .search-box {
-    background-color: purple;
     width: auto;
     float: left;
   }
@@ -73,4 +71,12 @@
     font-size: 60px;
     line-height: 65px;
     font-weight: 700px;
+  }
+
+  .react-logo-img{
+    height:30;
+    width:30px;
+  }
+  .react-logo-title{
+    color:white;
   }
