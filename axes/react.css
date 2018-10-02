@@ -2,11 +2,13 @@
   
   header {
     background-color: black;
-        width: auto;
-        clear : both;    
+        width: auto;    
+        height: 50px;
   } 
   
-  
+  .header-block{
+    height:50px;
+  }
   .menu-item{
     float:left;
     margin-top: 26px;
@@ -16,6 +18,7 @@
   .left-main {
     width: 70%;
     background-color: #ABCDEF;
+    float:left;
                 
   }
 
@@ -32,6 +35,7 @@
   .main-div {
     width: 100%;
     height: auto;
+   
   }
 
   .nav-elem {
