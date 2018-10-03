@@ -1,0 +1,15 @@
+header{
+    height: 100px;
+    background-color: #1E8178;
+}
+
+.sidebar{
+    float:left;
+    width:30%;
+    border: 2px solid grey;
+}
+
+.frame-shape{
+    border: 1px solid grey;
+    width: 20%;
+}
