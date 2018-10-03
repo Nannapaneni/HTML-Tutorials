@@ -50,6 +50,7 @@
   .search-box {
     width: auto;
     float: left;
+    display: flex;
   }
   .main-div {
     height: 500px;
@@ -85,4 +86,17 @@
     margin-right: 10px;
     display: table-cell;
     vertical-align:middle; 
+    padding-right:10px;
+  }
+
+  .underline{
+    border-bottom: 2px solid yellowgreen;
+  }
+
+  .highlight{
+    background-color: white;
+    color:black
+  }
+  .search{
+    margin: auto;
   }
